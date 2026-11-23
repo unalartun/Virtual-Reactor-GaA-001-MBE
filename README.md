@@ -38,6 +38,13 @@ On Windows, you can also launch `Script\Launch Virtual Reactor.bat` after instal
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
 
+## MATLAB reference and predictor
+
+The repository also includes the MATLAB KMC model and experimental neural-network predictor associated with this project. See [MATLAB/README.md](MATLAB/README.md) for their purpose and current limitations.
+
+- [MATLAB KMC model](MATLAB/KMC_GaAsAlGaAs_MBE.m)
+- [MATLAB neural predictor](MATLAB/Final.m)
+
 ## Project layout
 
 ```text
